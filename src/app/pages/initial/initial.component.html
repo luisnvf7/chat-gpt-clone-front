@@ -1,3 +1,27 @@
-<div style="height: 100vh" class="primary-color">
-    <label>Initial Page</label>
+<div class="primary-color h-full w-full flex flex-column align-items-center justify-content-center overflow-auto">
+    <div class="w-24rem flex flex-column align-items-center justify-content-center flex-auto">
+        <div class="mb-3">
+            <img src="assets/images/openainlogo.svg" width="41" height="41" />
+        </div>
+
+        <div class="mb-2" style="color: white;">
+            Welcome to ChatGPT
+        </div>
+
+        <div class="mb-3" style="color: white;">
+            Log in with your OpenAI account to continue
+        </div>
+
+        <div class="flex flex-row gap-3">
+            <app-initial-button [title]="'Log in'"></app-initial-button>
+            <app-initial-button [title]="'Sign up'"></app-initial-button>
+        </div>
+
+    </div>
+
+    <div class="py-3">
+        <a class="mx-3" style="color: white;">Terms of use</a>
+        <a class="mx-3" style="color: white;">Privacy policy</a>
+    </div>
+
 </div>

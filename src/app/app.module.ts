@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InitialButtonComponent } from './shared/components/initial-button/initial-button.component';
+import { SharedModule } from './shared/shared.module';
 // import { InitialComponent } from './pages/initial/initial.component';
 
 @NgModule({
@@ -12,7 +14,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
