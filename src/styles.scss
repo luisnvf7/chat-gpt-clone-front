@@ -11,3 +11,15 @@ body {
   height: 100%;
   font-family: "Söhne";
 }
+
+.text-color-primary {
+    color: var(--text-color-primary);
+}
+
+.primary-color {
+    background-color: var(--primary-color)
+}
+
+.text-color-secondary {
+  color: var(--text-color-secondary);
+}
