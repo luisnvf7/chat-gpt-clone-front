@@ -1,7 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Söhne";
+  src: url(assets/fonts/TestSöhne-Buch.otf) format('truetype');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  height: 100%
+  height: 100%;
+  font-family: "Söhne";
 }
