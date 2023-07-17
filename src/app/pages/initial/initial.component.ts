@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-initial',
@@ -7,7 +8,16 @@ import { Component } from '@angular/core';
 })
 export class InitialComponent {
 
-  constructor () {
+  constructor (private _route: Router) {
+  }
+
+  public onClick (type : "login" | "sign-up") {
+    if (type === 'login') {
+      this._route.navigate(["/auth/login/identifier"])
+    } else {
+
+    }
+
   }
 
 }

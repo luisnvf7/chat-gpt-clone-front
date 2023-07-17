@@ -1,16 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { InitialRoutingModule } from './initial-routing.module';
-import { InitialComponent } from './initial.component';
+import { LogInRoutingModule } from './log-in-routing.module';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { LogInComponent } from './log-in.component';
 
 @NgModule({
-  declarations: [InitialComponent],
+  declarations: [LogInComponent],
   imports: [
     CommonModule,
-    InitialRoutingModule,
+    LogInRoutingModule,
     SharedModule
   ]
 })
-export class InitialModule { }
+export class LogInModule { }

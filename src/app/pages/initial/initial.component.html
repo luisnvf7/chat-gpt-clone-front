@@ -13,8 +13,8 @@
         </div>
 
         <div class="flex flex-row gap-3">
-            <app-initial-button [title]="'Log in'"></app-initial-button>
-            <app-initial-button [title]="'Sign up'"></app-initial-button>
+            <app-initial-button [title]="'Log in'" (onClick)="onClick('login')"></app-initial-button>
+            <app-initial-button [title]="'Sign up'" (onClick)="onClick('sign-up')"></app-initial-button>
         </div>
     </div>
 

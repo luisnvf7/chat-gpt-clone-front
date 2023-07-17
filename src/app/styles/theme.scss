@@ -6,8 +6,9 @@
     --text-color-secondary: #8E8EA0;
   }
 
-
 [data-theme="dark"] {
-  --primary-color: blue;
-  --secondary-color: red
+  --primary-color: #343541;
+  --secondary-color: #10A37F;
+  --text-color-primary: #fff;
+  --text-color-secondary: #8E8EA0;
 }
