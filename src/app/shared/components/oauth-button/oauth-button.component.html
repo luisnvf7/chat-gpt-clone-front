@@ -1,0 +1,16 @@
+<div class="border-1 border-round-md border-round-lg p-3" style="border-color: #c2c8d0;" (click)="selectedAuth()">
+        <div *ngIf="oauthType == 'google'" class="flex flex-row align-items-center	">
+            <img src="assets/images/google-logo.svg" width="25" height="25" class="mr-3" />
+            <mat-label>Continue with Google</mat-label>
+        </div>
+
+        <div *ngIf="oauthType == 'microsoft'" class="flex flex-row align-items-center">
+            <img src="assets/images/microsoft-logo.svg" width="25" height="25" class="mr-3" />
+            <mat-label>Continue with Microsoft Account</mat-label>
+        </div>
+
+        <div *ngIf="oauthType == 'apple'" class="flex flex-row align-items-center">
+            <img src="assets/images/apple-logo.svg" width="25" height="25" class="mr-3" />
+            <mat-label>Continue with Apple</mat-label>
+        </div>
+</div>
