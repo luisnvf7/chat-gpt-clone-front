@@ -7,9 +7,10 @@ import { InitialButtonComponent } from './shared/components/initial-button/initi
 import { SharedModule } from './shared/shared.module';
 // import { InitialComponent } from './pages/initial/initial.component';
 
+
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
     // InitialComponent
   ],
   imports: [

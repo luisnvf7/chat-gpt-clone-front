@@ -3,7 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { InitialComponent } from './pages/initial/initial.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/auth/login', pathMatch: 'full' },
+  // { path: '', redirectTo: '/home', pathMatch: 'full' },
+  // { path: '', redirectTo: '/auth/login', pathMatch: 'full' },
+  {
+    path: '',
+    loadChildren: () =>
+      import('./pages/home/home.module').then((m) => m.HomeModule),
+  },
   {
     path: 'auth/login',
     loadChildren: () =>

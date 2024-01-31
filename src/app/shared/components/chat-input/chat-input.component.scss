@@ -1,0 +1,11 @@
+.text-area {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    resize: none;
+    min-height: 20px;
+}
+
+.text-area:focus {
+    outline: none;
+}

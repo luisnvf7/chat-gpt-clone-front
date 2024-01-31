@@ -1,0 +1,17 @@
+.chat-logo {
+  width:100px; /*width of your image*/
+   height:100px; /*height of your image*/
+   background-image:url('/assets/images/openainlogo.svg');
+   margin:0; /* If you want no margin */
+   padding:0  
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background: rgb(0, 0, 0, 1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1b1918;
+  border-radius: 10px;
+}
